@@ -1,0 +1,30 @@
+@using Types
+
+<div class="skill">
+    <h3>@data?.Name</h3>
+    <span>@data?.EstimatedLevel</span> -
+    @switch (data?.EstimatedLevel)
+    {
+        case 1:
+            <span>Fundamental Awareness</span>
+            break;
+        case 2:
+            <span>Novice</span>
+            break;
+        case 3:
+            <span>Competent</span>
+            break;
+        case 4:
+            <span>Good</span>
+            break;
+        case 5:
+            <span>Excellent</span>
+            break;
+    }
+</div>
+
+@code {
+    #nullable enable
+    [Parameter]
+    public SkillModel? data { get; set; }
+}

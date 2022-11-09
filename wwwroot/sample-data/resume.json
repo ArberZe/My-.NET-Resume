@@ -1,0 +1,50 @@
+{
+  "about": "Third year student, aspiring software developer",
+  "experiences": [],
+  "educations": [
+    {
+      "name": "Bachelor of Computer Science and Engineering",
+      "degreeyear": "Undergraduate",
+      "description": "Education covering algorithms, programming, operating systems and databases"
+    },
+    {
+      "name": "High School Diploma",
+      "degreeyear": "2020",
+      "description": "Education on the field of Economy, Accounting"
+    }
+  ],
+  "skills": [
+    {
+      "name": "C#",
+      "estimatedlevel": 3
+    },
+    {
+      "name": "ASP .NET",
+      "estimatedlevel": 3
+    },
+    {
+      "name": "HTML",
+      "estimatedlevel": 4
+    },
+    {
+      "name": "JavaScript",
+      "estimatedlevel": 4
+    },
+    {
+      "name": "CSS",
+      "estimatedlevel": 4
+    },
+    {
+      "name": "SQL",
+      "estimatedlevel": 4
+    },
+    {
+      "name": "PHP",
+      "estimatedlevel": 3
+    },
+    {
+      "name": "Java",
+      "estimatedlevel": 3
+    }
+  ]
+}
